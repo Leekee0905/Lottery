@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <title>로또 번호 생성기</title>
+    <script src="lottery.js"></script>
+  </head>
+  <body>
+    <main id="wrapper">
+      <h1 id="title">로또 번호 생성기</h1>
+      <div id="button-box">
+        <button type="button" id="create-btn" onclick="makeLotteryNumbers()">
+          생성
+        </button>
+        <button type="button" id="reset-btn" onclick="resetList()">
+          초기화
+        </button>
+      </div>
+
+      <ul id="numbers"></ul>
+    </main>
+  </body>
+</html>
